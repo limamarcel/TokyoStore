@@ -1,0 +1,136 @@
+#logo {
+    width: 300px;
+}
+
+#manga {
+    width: 300px;
+    height: 400px;
+}
+
+#figure {
+    width: 300px;
+    height: 400px;
+}
+
+#pelucia {
+    width: 300px;
+    height: 400px;
+}
+
+header {
+    background-color: #CE2A3F;
+    padding: 20px 0;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display:inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0f0044;
+    font-weight: bold;
+    font-size:25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer img {
+    width: 200px
+}
+footer {
+    text-align: center;
+    background: #CE2A3F;
+    padding: 20px ;
+}
+.copyright {
+    color: #000000;
+    font-size: 14px;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    color: #0f0044;
+}
+
+.preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0f0044;
+}
+
+.descrição {
+    font-size: 22px;
+}
+
+.produtos {
+    width: 940px;
+    margin:0 auto;
+    padding: 90px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border: 3px solid #000000
+}
+
+.produtos li:hover {
+    border-color: #CE2A3F;
+}
+
+.produtos li:active {
+    border-color: #ffae00;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+main {
+    width: 940px;
+    margin: auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+ }
+
+ .checkbox {
+    margin: 20px 0;
+ }
